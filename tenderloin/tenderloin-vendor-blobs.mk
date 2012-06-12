@@ -16,10 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/hp/tenderloin/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
-    vendor/hp/tenderloin/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
-    vendor/hp/tenderloin/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
-	vendor/hp/tenderloin/proprietary/lib/liba2dp.so:obj/lib/liba2dp.so
+    vendor/hp/tenderloin/proprietary/lib/libcamera.so:obj/lib/libcamera.so
 
 # Live wallpaper packages
 PRODUCT_PACKAGES := \
@@ -40,14 +37,9 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/hp/tenderloin/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/hp/tenderloin/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/hp/tenderloin/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
-    vendor/hp/tenderloin/proprietary/lib/hw/alsa.tenderloin.so:system/lib/hw/alsa.tenderloin.so \
-    vendor/hp/tenderloin/proprietary/lib/libaudio.so:system/lib/libaudio.so \
     vendor/hp/tenderloin/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/hp/tenderloin/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/hp/tenderloin/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/hp/tenderloin/proprietary/lib/libasound.so:system/lib/libasound.so \
-    vendor/hp/tenderloin/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
     vendor/hp/tenderloin/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/hp/tenderloin/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/hp/tenderloin/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
@@ -82,21 +74,4 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/bin/sensord:system/bin/sensord \
     vendor/hp/tenderloin/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/hp/tenderloin/proprietary/bin/thermald:system/bin/thermald \
-    vendor/hp/tenderloin/proprietary/bin/dcvsd:system/bin/dcvsd \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/side.conf:system/usr/share/alsa/pcm/side.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
-    vendor/hp/tenderloin/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf
+    vendor/hp/tenderloin/proprietary/bin/dcvsd:system/bin/dcvsd
