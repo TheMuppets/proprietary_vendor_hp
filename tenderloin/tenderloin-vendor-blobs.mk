@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/hp/tenderloin/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/hp/tenderloin/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/hp/tenderloin/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/hp/tenderloin/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/hp/tenderloin/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/hp/tenderloin/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
@@ -63,6 +64,11 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/etc/firmware/q6.mdt:system/etc/firmware/q6.mdt \
     vendor/hp/tenderloin/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/hp/tenderloin/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/hp/tenderloin/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/hp/tenderloin/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/hp/tenderloin/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/hp/tenderloin/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/hp/tenderloin/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/hp/tenderloin/proprietary/etc/firmware/wm8958_enh_eq.wfw:system/etc/firmware/wm8958_enh_eq.wfw \
     vendor/hp/tenderloin/proprietary/etc/firmware/q6.b02:system/etc/firmware/q6.b02 \
     vendor/hp/tenderloin/proprietary/etc/firmware/q6.b03:system/etc/firmware/q6.b03 \
