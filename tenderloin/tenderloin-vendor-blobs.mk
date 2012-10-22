@@ -36,15 +36,18 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/hp/tenderloin/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/hp/tenderloin/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/hp/tenderloin/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/hp/tenderloin/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/hp/tenderloin/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/hp/tenderloin/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/hp/tenderloin/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/hp/tenderloin/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/hp/tenderloin/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/hp/tenderloin/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/hp/tenderloin/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/hp/tenderloin/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/hp/tenderloin/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/hp/tenderloin/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/hp/tenderloin/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/hp/tenderloin/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/hp/tenderloin/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
